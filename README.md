@@ -2,9 +2,9 @@
 ![Example use of backdoor in Robot framework](ReadmeAssets/ios.gif)
 
 ## Background
-Appium is generally considered a blackbox testing tool. It has no access to the app's methods. Appium acts on the elements accessible by an user.
+Appium is generally considered a blackbox testing tool, that is it has no access to the app's methods. Appium acts on the elements accessible by an user.
 
-But what if that is not enough? For example if you want to simulate an incoming notifiction, a bluetooth device connection, or a crash? For that you need whitebox testing with access to the app's internal methods.
+But what if that is not enough? For example if you want to simulate an incoming notification, a bluetooth device connection, or a crash? For that you need whitebox testing with access to the app's internal methods.
 
 There are ways to do whitebox testing in Android using the espresso driver:
 - https://appiumpro.com/editions/51
@@ -12,7 +12,7 @@ There are ways to do whitebox testing in Android using the espresso driver:
 There is also a library to add backdoor testing to iOS+Appium:
 - https://github.com/alexmx/Insider
 
-But neither of these solutions as a backdoor in C# apps, mainly Android and iOS writting using the Xamarin framework. That is the problem this repo solves.
+But neither of these solutions as a backdoor in C# apps, mainly Android and iOS written in Xamarin. That is the problem this repo solves.
 
 ## Prerequisites
 ### MQTT broker
