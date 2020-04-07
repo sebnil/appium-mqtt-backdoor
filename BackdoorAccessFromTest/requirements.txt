@@ -1,0 +1,6 @@
+# to run Appium tests from Robot framwork
+robotframework
+robotframework-appiumlibrary
+
+# to connect to MQTT broker
+paho-mqtt
