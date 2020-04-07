@@ -190,7 +190,7 @@ if __name__ == '__main__':
 ## Security
 Obviously having a backdoor in your application is a data security issue. Disable all backdoors before shipping the application:
 ```C#
-#ifdef BACKDOOR_ENABLED
+#if BACKDOOR_ENABLED
 // Initialize the MQTT backdoor
 Task t = Backdoor.Instance.Initialize(mqttHost: "<mqtt server address>");
 ...
